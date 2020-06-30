@@ -1,80 +1,215 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+<!--======head======-->
 
 <head>
   <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" text="text/css" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" text="text/css" href="style.css" />
 
   <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-  <title>Restaurant-Menu</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>Restaurant-Home</title>
 </head>
 
+<!--======Body======-->
+
+
 <body>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-2 col-xs-2">
-        <div class="box logo">Logo</div>
-      </div>
-      <div class="col-md-10 col xs-10">
-        <div class="box nav">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-2 col-md-offset-1 col-xs-2">
-                <div class="box home">
-                  <a href="index.html" class="link">Home</a>
-                </div>
-              </div>
-              <div class="col-md-2 col-xs-2">
-                <div class="box menu">
-                  <a href="menu.html" class="link">Menu</a>
-                </div>
-              </div>
-              <div class="col-md-2 col-xs-2">
-                <div class="box gallerie">
-                  <a href="gallerie.html" class="link">Gallerie</a>
-                </div>
-              </div>
-              <div class="col-md-2 col-xs-2">
-                <div class="box restaurant">
-                  <a href="restaurant.html" class="link">Restaurant</a>
-                </div>
-              </div>
-              <div class="col-md-2 col-xs-2">
-                <div class="box contact">
-                  <a href="contact.html" class="link">Contact</a>
-                </div>
-              </div>
-            </div>
+
+  <!--======logo et navbar=======-->
+
+  <div class="container-fluid" style="background-color: black;">
+    <nav class="nav navbar-expand-md justify-content-center">
+      <ul class="navbar nav">
+        <li class="nav-item">
+          <a class="nav-link text-light font-weight-bold text-uppercase px-10" href="menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light font-weight-bold text-uppercase px-10" href="gallerie.html">Gallerie</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light font-weight-bold text-uppercase px-10" href="index.html"><img
+              src="image/raccon.png" class="img-fluid" alt="Responsive image" /></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light font-weight-bold text-uppercase px-10" href="restaurant.html">Restaurant</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light font-weight-bold text-uppercase px-10" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <!--======core======-->
+
+  <div class="row text-center">
+    <div class="col-md-6">
+      <div class="row">
+
+        <!--petits plats-->
+
+        <div class="col-md-12">
+          <div class="box">
+            <p class="lead">Les petits plats</p>
+            <ul class="list-unstyled">
+              <li>La burrata <span class="badge badge-dark">10 €</span></li>
+              <li>Tartare de bœuf <span class="badge badge-dark">11 €</span></li>
+              <li>Tartare de thon <span class="badge badge-dark">12.5 €</span></li>
+              <li>Lunettes à la truffe <span class="badge badge-dark">11.5 €</span></li>
+              <li>Risotto aux St-Jacques <span class="badge badge-dark">11.5 €</span></li>
+              <li>Tagliata di Manzo <span class="badge badge-dark">13 €</span></li>
+              <li>Les spare ribs <span class="badge badge-dark">8 €</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <!--planches-->
+
+        <div class="col-md-12">
+          <div class="box">
+            <p class="lead">Les planches</p>
+            <ul class="list-unstyled">
+              <li> Planche de fromage <span class="badge badge-dark">15 €</span></li>
+              <li>Planche de charcuteries <span class="badge badge-dark">15 €</span></li>
+              <li>Planche mixte <span class="badge badge-dark"> 15 €</span></li>
+              <li>Double planche mixte <span class="badge badge-dark">25 €</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <!--petits pots-->
+
+        <div class="col-md-12">
+          <div class="box">
+            <p class="lead">Les petits pots</p>
+            <ul class="list-unstyled">
+              <li>Houmous <span class="badge badge-dark">5 €</span></li>
+              <li>Tapenade d’olives <span class="badge badge-dark">4 €</span></li>
+              <li>Tapenade d’artichauts <span class="badge badge-dark">6 €</span></li>
+              <li>Rillettes de saumon <span class="badge badge-dark">7 €</span></li>
+              <li>Caviar d’aubergines <span class="badge badge-dark">5 €</span></li>
+              <li>Pot du moment <span class="badge badge-dark">7 €</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <!--deserts-->
+
+        <div class="col-md-12">
+          <div class="box dessert">
+            <p class="lead">Les desserts</p>
+            <ul class="list-unstyled">
+              <li>Tarte tatin /glace vanille <span class="badge badge-dark">5 €</span></li>
+              <li>Moelleux choco /glace vanille <span class="badge badge-dark">5 €</span></li>
+              <li>Oreo cheesecake <span class="badge badge-dark">5 €</span></li>
+              <li>Tiramisu <span class="badge badge-dark">5 €</span></li>
+              <li>Suggestions <span class="badge badge-dark">5 €</span></li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-6 col-xs-12">
-        <div class="row">
-          <div class="col-md-12 col-md-12">
-            <div class="box special">Spécial du moment</div>
-          </div>
-          <div class="col-md-12 col-xs-12">
-            <div class="box classique">Classique</div>
-          </div>
-          <div class="col-md-12 col-xs-12">
-            <div class="box orient">Orient</div>
-          </div>
-          <div class="col-md-12 col-xs-12">
-            <div class="box dessert">Dessert</div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6 col-xs-12">
-        <div class="box drinks">Drinks</div>
+
+    <!--drinks-->
+
+    <div class="col-md-6 col-xs-12">
+
+      <!--cocktails-->
+
+      <div class="box">
+        <p class="lead">cocktails</p>
+        <ul class="list-unstyled">
+          <li>
+            Spritz <span class="badge badge-dark">8 €</span>
+          </li>
+          <li>
+            Ti'punch <span class="badge badge-dark">7.5 €</span>
+          </li>
+          <li>
+            Les mules <span class="badge badge-dark">9 €</span>
+          </li>
+          <li>
+            Dark 'n' Stormy <span class="badge badge-dark">9 €</span>
+          </li>
+        </ul>
+
+        <!--Gins-->
+
+        <p class="lead">gin & tonic</p>
+        <ul class="list-unstyled">
+          <li>Bankes <span class="badge badge-dark">9 €</span></li>
+          <li>Père Albert <span class="badge badge-dark">11 €</span></li>
+          <li>Hendrick’s <span class="badge badge-dark">13 €</span></li>
+          <li>Jinzu <span class="badge badge-dark">13 €</span></li>
+          <li>Koskue <span class="badge badge-dark">15 €</span></li>
+          <li>Marula <span class="badge badge-dark">15 €</span></li>
+        </ul>
+
+        <!--Bières-->
+
+        <p class="lead">Bières</p>
+        <ul class="list-unstyled">
+          <li>Vedett Extra Blond/white <span class="badge badge-dark">3 €</span></li>
+          <li>Vedette IPA <span class="badge badge-dark">3.8 €</span></li>
+          <li>Zinnebir <span class="badge badge-dark">3.8 €</span></li>
+          <li>Brusseleir <span class="badge badge-dark">3.8 €</span></li>
+          <li>Jambes-de-bois <span class="badge badge-dark">3.8 €</span></li>
+        </ul>
+
+        <!--softs-->
+
+        <p class="lead">softs</p>
+        <ul class="list-unstyled">
+          <li>ice tea maison <span class="badge badge-dark">3 €</span></li>
+          <li>coca / coca zero <span class="badge badge-dark">3 €</span></li>
+          <li>ginger beer/ginger ale <span class="badge badge-dark">3.2 €</span></li>
+          <li>tonic mediterranean <span class="badge badge-dark">3.2 €</span></li>
+          <li>1/2L plat / pétillant <span class="badge badge-dark">4 €</span></li>
+        </ul>
       </div>
     </div>
   </div>
+
+  <!--======Footer======-->
+
+  <footer class="page-footer" style="background-color: black;">
+    <ul class="list-unstyled list-inline text-center py-3">
+      <li class="list-inline-item">
+        <a href="#" class="fa fa-facebook"></a>
+      </li>
+      <li class="list-inline-item">
+        <a href="#" class="fa fa-twitter"></a>
+      </li>
+      <li class="list-inline-item">
+        <a href="#" class="fa fa-linkedin"></a>
+      </li>
+      <li class="list-inline-item">
+        <a href="#" class="fa fa-instagram"></a>
+      </li>
+    </ul>
+    <div class="footer-copyright text-center text-light py-2">
+      © 2020 Copyright: Pierre Maximilien project with Becode
+    </div>
+  </footer>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
