@@ -29,10 +29,3 @@ A page with a contact form containing the firstname, lastname, email, subject of
 
 All pictures on this website are copyright free and free to use from :
 https://pixabay.com/fr/
-
-## Lighthouse Test Results
-
-Performance:
-Accessibility: 
-Best Practices: 
-SEO: 
